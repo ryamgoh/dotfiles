@@ -13,3 +13,7 @@ sudo nano /etc/tlp.conf
 
 sudo systemctl restart auto-cpufreq.service
 sudo systemctl disable tlp.service 
+
+
+## Packages to install
+stow zsh fzf zoxide
