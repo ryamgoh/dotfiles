@@ -1,3 +1,9 @@
+-- Enable clipboard support
+-- vim.api.nvim_set_option("clipboard", "unnamed")
+vim.cmd("set clipboard+=unnamedplus")
+
+-- Map a key to copy to the clipboard (optional)
+vim.keymap.set('v', '<C-c>', '"+y', { noremap = true })
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
