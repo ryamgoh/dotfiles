@@ -17,3 +17,9 @@ sudo systemctl disable tlp.service
 
 ## Packages to install
 stow zsh fzf zoxide
+
+
+
+
+Add here if
+amd_pstate=passive initcall_blacklist=acpi_cpufreq_init amd_pstate.shared_mem=1
