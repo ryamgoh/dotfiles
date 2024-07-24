@@ -52,6 +52,7 @@ zinit cdreplay -q
 
 # Keybindings
 bindkey -v
+export KEYTIMEOUT=1
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
@@ -82,6 +83,6 @@ alias vim='nvim'
 alias c='clear'
 
 # Shell integrations
-# eval "$(fzf --zsh)"
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(fzf --zsh)"
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
