@@ -86,3 +86,4 @@ alias c='clear'
 eval "$(fzf --zsh)"
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
+neofetch
