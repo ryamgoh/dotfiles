@@ -1,4 +1,8 @@
 export PATH=$PATH:/home/ryam/.local/bin
+# Miniconda3
+# I ran this previously: conda install cryptography
+export CRYPTOGRAPHY_OPENSSL_NO_LEGACY=1
+
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -81,6 +85,9 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
+alias emulator='./Android/Sdk/emulator/emulator'
+alias whatsapp='nchat -d ~/.nchat-whatsapp'
+alias telegram='nchat'
 
 # Shell integrations
 eval "$(fzf --zsh)"
