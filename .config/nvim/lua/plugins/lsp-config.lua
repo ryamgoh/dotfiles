@@ -28,9 +28,6 @@ return {
       lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
-      lspconfig.tsserver.setup({
-        capabilities = capabilities
-      })
       lspconfig.html.setup({
         capabilities = capabilities
       })
