@@ -5,6 +5,10 @@
   min-height: 0;
 }
 
+#custom-notification {
+	font-family: "NotoSansMono Nerd Font";
+}
+
 window#waybar {
   background: transparent;
   /*    background-color: rgba(43, 48, 59, 0.5); */
