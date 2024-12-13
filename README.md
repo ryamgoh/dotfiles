@@ -1,3 +1,16 @@
+# How to use Stow
+Choose a directory you want to stow
+cd into this dotfiles/
+then stow a directory that matches the file path if you were to edit it yourself
+for eg. stow nvim/
+this should copy over the contents inside and put it into a pointer
+nvim/.config/nvim/.......
+
+This should be it !
+
+---
+
+
 Commands for Auto CPU Freq and TLP UI
 
 sudo nano /etc/kernel/cmdline 
