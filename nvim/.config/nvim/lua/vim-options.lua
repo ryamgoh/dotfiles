@@ -23,3 +23,9 @@ vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 vim.wo.number = true
+
+-- Window resizing (new mappings)
+-- Increase width
+vim.keymap.set("n", "<leader>+", ":vertical resize +5<CR>", { noremap = true })
+-- Decrease width
+vim.keymap.set("n", "<leader>-", ":vertical resize -5<CR>", { noremap = true })
